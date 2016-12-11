@@ -1,0 +1,15 @@
+{
+  "name": "webpack-browsersync-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"webpack --watch\" \"browser-sync start --server --files 'js/bundle.js' 'index.html'\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.1.0"
+  }
+}
